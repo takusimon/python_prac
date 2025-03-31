@@ -8,9 +8,3 @@ try:
 finally:
     file.close()
 
-
-try:
-    csv_writer = writer('bestseller_info.csv', 'w')
-    csv_writer.writerow(['hi','nice','to','meet','you'])
-finally:
-    file.close()
